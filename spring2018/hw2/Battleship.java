@@ -90,7 +90,7 @@ public class Battleship {
 
         int fileInd = (args.length > 0) ? Integer.parseInt(args[0])
                 : new Random().nextInt(4);
-        fileInd = 2;
+        //fileInd = 2;
         String filename = "game" + fileInd + ".txt";
 
         try {
